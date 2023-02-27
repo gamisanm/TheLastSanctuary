@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2121993341951856038}
   - component: {fileID: 2121993341951856039}
   - component: {fileID: 2121993341951856035}
-  - component: {fileID: 2121993341951856036}
-  m_Layer: 0
+  - component: {fileID: 5416692410602019231}
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2121993341951856040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.298, y: 1.9841, z: 0}
-  m_LocalScale: {x: 0.2841, y: 0.8282, z: 1}
+  m_LocalScale: {x: 1.8501252, y: 1.5346584, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7fa0a230e7dfc4fc3be7ddb36ba79b55, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,10 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66286eb398b384a54897e9ff72262fd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HPslider: {fileID: 0}
-  currentHp: 0
+  maxHP: 10
   speed: 2
-  stoppingDistance: 1
+  stoppingDistance: 0
 --- !u!50 &2121993341951856035
 Rigidbody2D:
   serializedVersion: 4
@@ -119,12 +118,12 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 55227fa45a4be439ab5c455bd41517ac, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &2121993341951856036
+--- !u!61 &5416692410602019231
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,12 +140,12 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.35, y: 0.43}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.35, y: 0.43}
   m_EdgeRadius: 0

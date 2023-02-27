@@ -372,11 +372,13 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/Bullet.cs"
-"Assets/Scripts/EnemyAI.cs"
-"Assets/Scripts/PatrolEnemy.cs"
-"Assets/Scripts/Player.cs"
-"Assets/Scripts/Shooting.cs"
+"Assets/Scripts/GameManager/Menu.cs"
+"Assets/Scripts/Mobs/EnemyAI.cs"
+"Assets/Scripts/Mobs/WaveSpawner.cs"
+"Assets/Scripts/Player/Bullet.cs"
+"Assets/Scripts/Player/CameraFollow.cs"
+"Assets/Scripts/Player/Player.cs"
+"Assets/Scripts/Player/Shooting.cs"
 -langversion:9.0
 
 /deterministic
